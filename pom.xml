@@ -27,7 +27,7 @@
     </parent>
 
     <artifactId>jaxb2-maven-plugin</artifactId>
-    <version>3.1.0</version>
+    <version>3.1.0-TIBCO-1</version>
     <packaging>maven-plugin</packaging>
 
     <name>JAXB-2 Maven Plugin</name>
@@ -97,14 +97,14 @@
     </prerequisites>
 
     <scm>
-        <connection>scm:git:https://github.com/mojohaus/jaxb2-maven-plugin.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/mojohaus/jaxb2-maven-plugin.git</developerConnection>
-        <url>https://github.com/mojohaus/jaxb2-maven-plugin.git</url>
-        <tag>jaxb2-maven-plugin-3.1.0</tag>
+        <connection>scm:git:https://github.com/tibco-jufernan/jaxb2-maven-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/tibco-jufernan/jaxb2-maven-plugin.git</developerConnection>
+        <url>https://github.com/tibco-jufernan/jaxb2-maven-plugin.git</url>
+        <tag>jaxb2-maven-plugin-3.1.0-TIBCO-1</tag>
     </scm>
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/mojohaus/jaxb2-maven-plugin/issues</url>
+        <url>https://github.com/tibco-jufernan/jaxb2-maven-plugin/issues</url>
     </issueManagement>
     <ciManagement>
         <system>TravisCI</system>
@@ -131,7 +131,7 @@
         <xmlunit.version>2.8.1</xmlunit.version>
         <maven-plugin-plugin.version>3.6.4</maven-plugin-plugin.version>
         <shared-algorithms.version>0.10.3</shared-algorithms.version>
-        <project.build.outputTimestamp>2022-04-20T23:10:14Z</project.build.outputTimestamp>
+        <project.build.outputTimestamp>2023-03-09T12:25:26-05:00</project.build.outputTimestamp>
     </properties>
 
     <dependencyManagement>
